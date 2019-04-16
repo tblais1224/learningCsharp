@@ -10,13 +10,14 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(4 % 2);
+            Console.WriteLine( 4 + 2 * 3);
+            Console.WriteLine(5/2);
+            Console.WriteLine(5 / 2.0);
 
-            string phrase = "Black holes are cool " + "also the General Theory or Relativity is intriguing.";
-            
-            Console.WriteLine(phrase.Substring(10, 5));
-            Console.WriteLine("Black holes\" are cool");
-            Console.WriteLine(phrase[0]);
-            Console.WriteLine(phrase.Contains("cool"));
+            int num = 6;
+            num++;
+            Console.WriteLine(num);
 
             Console.ReadLine();
         }
