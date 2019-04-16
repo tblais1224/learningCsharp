@@ -1,0 +1,7 @@
+C:\Users\tomal\OneDrive\Documents\myC#Code\learningCsharp\learningCsharp\bin\Debug\learningCsharp.exe.config
+C:\Users\tomal\OneDrive\Documents\myC#Code\learningCsharp\learningCsharp\bin\Debug\learningCsharp.exe
+C:\Users\tomal\OneDrive\Documents\myC#Code\learningCsharp\learningCsharp\bin\Debug\learningCsharp.pdb
+C:\Users\tomal\OneDrive\Documents\myC#Code\learningCsharp\learningCsharp\obj\Debug\learningCsharp.csprojAssemblyReference.cache
+C:\Users\tomal\OneDrive\Documents\myC#Code\learningCsharp\learningCsharp\obj\Debug\learningCsharp.csproj.CoreCompileInputs.cache
+C:\Users\tomal\OneDrive\Documents\myC#Code\learningCsharp\learningCsharp\obj\Debug\learningCsharp.exe
+C:\Users\tomal\OneDrive\Documents\myC#Code\learningCsharp\learningCsharp\obj\Debug\learningCsharp.pdb
