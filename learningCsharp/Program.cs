@@ -10,17 +10,19 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            string adjective, pluralNoun, noun;
-            Console.Write("Enter an adjective: ");
-            adjective = Console.ReadLine();
-            Console.Write("Enter a plural noun: ");
-            pluralNoun = Console.ReadLine();
-            Console.Write("Enter a noun: ");
-            noun = Console.ReadLine();
+            //must use [] to tell that its array of ints
+            int[] luckyNumbers = { 2, 5, 22, 56, 32, 69, 12, 5 };
+            //empty array for strings
+            //new string[number of values for the array to hold]
+            string[] friends = new string[5];
+            friends[0] = "Tom";
+            friends[1] = "Evan";
+            friends[2] = "Rob";
+            friends[3] = "Mike";
+            friends[4] = "Nate";
 
-            Console.WriteLine("Coding is "+adjective);
-            Console.WriteLine("I hate "+ pluralNoun);
-            Console.WriteLine("but I love "+noun+"!");
+
+            Console.WriteLine(luckyNumbers[5] + friends[3]);
 
             Console.ReadLine();
         }
