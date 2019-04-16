@@ -10,13 +10,14 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine(Math.Pow(3.3, 30));  // gives number 3.3 raised to the power of 30
-            Console.WriteLine(Math.Sqrt(144));  //square roots number
-            Console.WriteLine(Math.Max(3, 100)); //gives max number
-            Console.WriteLine(Math.Round(3.6)); //rounds the number up or down
-
-
+            //writes the string to the console and stays on the same line
+            Console.Write("Enter your name: ");
+            //pauses program to allow user to input text
+            string name = Console.ReadLine();
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+            Console.WriteLine("Hello " + name + ", you are " + age + "years old.");
+            //pauses so we can view result
             Console.ReadLine();
         }
     }
