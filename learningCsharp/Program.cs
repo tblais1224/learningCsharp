@@ -10,15 +10,16 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            //call methods here in main method to get output
-            //call the method
-            SayHi("Maddie", 69);
+            int cubedNumber = CubeNum(5);
+            Console.WriteLine(cubedNumber);
             Console.ReadLine();
         }
 
-        static void SayHi(string name, int age)
+        //this method returns a int called result and inputs and int called num
+        static int CubeNum(int num)
         {
-            Console.WriteLine("Hello " + name + " you are " + age);
+            int result = num * num * num;
+            return result;
         }
 
     }
