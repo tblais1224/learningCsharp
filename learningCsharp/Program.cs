@@ -10,14 +10,12 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(4 % 2);
-            Console.WriteLine( 4 + 2 * 3);
-            Console.WriteLine(5/2);
-            Console.WriteLine(5 / 2.0);
 
-            int num = 6;
-            num++;
-            Console.WriteLine(num);
+            Console.WriteLine(Math.Pow(3.3, 30));  // gives number 3.3 raised to the power of 30
+            Console.WriteLine(Math.Sqrt(144));  //square roots number
+            Console.WriteLine(Math.Max(3, 100)); //gives max number
+            Console.WriteLine(Math.Round(3.6)); //rounds the number up or down
+
 
             Console.ReadLine();
         }
