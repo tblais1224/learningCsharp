@@ -10,16 +10,16 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            string characterName = "Maddie";
-            int characterAge;
-            characterAge = 60;
+            string phrase = "Big Papi rakes";
+            char grade = 'A';
+            int age = 30;
+            double gpa = 3.52;
+            bool isMale = true;
 
-            Console.WriteLine("There once was a lady name " + characterName);
-            Console.WriteLine("She was "+characterAge+" years old");
-            Console.WriteLine("She really like to walk her dogs");
-            Console.WriteLine("But didnt like somebody who was also " + characterAge);
+            Console.WriteLine(30);
 
             Console.ReadLine();
         }
     }
 }
+
