@@ -10,15 +10,17 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            //writes to console
-            Console.Write("Enter a number: ");
-            //readline pauses script until user inputs, 
-            //result is converted from string to int32
-            double num1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter another number: ");
-            double num2 = Convert.ToDouble(Console.ReadLine());
+            string adjective, pluralNoun, noun;
+            Console.Write("Enter an adjective: ");
+            adjective = Console.ReadLine();
+            Console.Write("Enter a plural noun: ");
+            pluralNoun = Console.ReadLine();
+            Console.Write("Enter a noun: ");
+            noun = Console.ReadLine();
 
-            Console.WriteLine(num1 + num2);
+            Console.WriteLine("Coding is "+adjective);
+            Console.WriteLine("I hate "+ pluralNoun);
+            Console.WriteLine("but I love "+noun+"!");
 
             Console.ReadLine();
         }
