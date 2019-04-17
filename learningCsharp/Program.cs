@@ -11,30 +11,45 @@ namespace learningCsharp
         static void Main(string[] args)
         {
 
-            Console.Write("Enter a number: ");
-            //must convert string to double
-            double num1 = Convert.ToDouble(Console.ReadLine());
-
-            Console.Write("Enter Operator: ");
-            string oper = Console.ReadLine();
-
-            Console.Write("Enter a number: ");
-            double num2 = Convert.ToDouble(Console.ReadLine());
-
-            if (oper == "+"){
-                Console.WriteLine(num1 + num2);
-            }   else if(oper == "-"){
-                Console.WriteLine(num1 - num2);
-             }  else if(oper == "/"){
-                Console.WriteLine(num1 / num2);
-             }  else if(oper == "*"){
-                Console.WriteLine(num1 * num2);
-             }  else {
-                Console.WriteLine("Invalid Operator you stupid human!!!");
-             }
+            Console.WriteLine(GetDay(66));
 
             Console.ReadLine();
 
+        }
+        static string GetDay(int dayNum) {
+
+            string dayName;
+
+            switch (dayNum)
+	        {
+                //when dayNum is 0 same as case, then dayName is sunday
+		        case 0:
+                    dayName = "Sunday";
+                    break;
+                case 1:
+                    dayName = "Monday";
+                    break;
+                case 2:
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednesday";
+                    break;
+                case 4:
+                    dayName = "Thursday";
+                    break;
+                case 5:
+                    dayName = "Friday";
+                    break;
+                case 6:
+                    dayName = "Saturday";
+                    break;
+                default:
+                    dayName = "You Suck!!! Invalid day number.";
+                    break;
+            }
+           
+            return dayName;
         }
     }
 }
