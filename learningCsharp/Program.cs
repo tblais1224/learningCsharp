@@ -11,29 +11,23 @@ namespace learningCsharp
         static void Main(string[] args)
         {
 
-            bool isMale = true;
-            bool isTall = false;
-            //check if male and if tall
-            if (isMale && isTall)
-            {
-                Console.WriteLine("You are a bro!");
-                //!isTall using ! negates the boolean
-            }else if (isMale && !isTall) {
-                Console.WriteLine("you are a short bro");
-            }
-            else if (!isMale && isTall)
-            {
-                Console.WriteLine("You are a tall sis!");
-            }
-            else
-            {
-                Console.WriteLine("You are a short sis!");
-            }
+            Console.WriteLine(GetMax(20,10,99));
 
             Console.ReadLine();
+
         }
 
-        
-
+        static int GetMax(int num1, int num2, int num3){
+            int result;
+            if (num1 >= num2 && num1 >= num3)
+	         {
+                result = num1;
+	         }else if(num2 >= num1 && num2 >= num3){
+               result = num2;
+               } else {
+                   result = num3;
+               }
+            return result;
+        }
     }
 }
