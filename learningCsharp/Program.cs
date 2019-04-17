@@ -10,17 +10,30 @@ namespace learningCsharp
     {
         static void Main(string[] args)
         {
-            int cubedNumber = CubeNum(5);
-            Console.WriteLine(cubedNumber);
+
+            bool isMale = true;
+            bool isTall = false;
+            //check if male and if tall
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are a bro!");
+                //!isTall using ! negates the boolean
+            }else if (isMale && !isTall) {
+                Console.WriteLine("you are a short bro");
+            }
+            else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are a tall sis!");
+            }
+            else
+            {
+                Console.WriteLine("You are a short sis!");
+            }
+
             Console.ReadLine();
         }
 
-        //this method returns a int called result and inputs and int called num
-        static int CubeNum(int num)
-        {
-            int result = num * num * num;
-            return result;
-        }
+        
 
     }
 }
